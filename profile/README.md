@@ -11,15 +11,17 @@
 1. docker컨테이너 생성
    
 docker-compose.yml 파일을 c드라이브 dockerdata폴더에 넣은 뒤
-
+wsl 환경(ubuntu) 에서
 ```
-/mnt/c
-/dockerdata
+cd /mnt/c
+cd /dockerdata
 docker-compose up -d
 ```
 후에 docker desktop에서 생성된 컨테이너 실행
 
 2. node서버 실행
+
+IDE(vscode) terminal에서
 ```
 git clone https://github.com/OnelineBookClass/Backend.git
 cd backend
