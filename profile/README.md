@@ -8,6 +8,18 @@
 
 ## 실행 방법
 
+1. docker컨테이너 생성
+   
+docker-compose.yml 파일을 c드라이브 dockerdata폴더에 넣은 뒤
+
+```
+/mnt/c
+/dockerdata
+docker-compose up -d
+```
+후에 docker desktop에서 생성된 컨테이너 실행
+
+2. node서버 실행
 ```
 git clone https://github.com/OnelineBookClass/Backend.git
 cd backend
